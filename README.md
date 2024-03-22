@@ -232,7 +232,12 @@ Alternative Hypothesis: Recipes are rated higher when preparation time is shorte
 **Our Test Statistic:**
 Test Statistic: Difference between average rating of recipes that are of a long preparation time and a short preparation time
 
-TODO: plotly
+<iframe
+  src="assets/hypothesis_graph.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ### Hypothesis Testing Conclusion
 
@@ -283,7 +288,14 @@ We believe that our current model performs poorly. This is because our R^2 is ve
 **New or Transformed Features:**
 *Minutes*: 
 We square root scaled and encoded the minutes using quantiles.
-    
+
+<iframe
+  src="assets/final_model_graph.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 Firstly, we square root scaled it because the scatter plot between the minutes and avg_rating looks more similar to the graph of sqrt(x) rather than having a linear relationship.
 We encoded the minutes as quantiles to account for the extreme outlier in minutes that we found.  
 
