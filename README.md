@@ -197,7 +197,7 @@ Firstly, we would like to analyze the distribution of minutes when rating is and
 - Test Statistic: Absolute Mean Difference of minutes when column rating is missing and is not missing
 
 <iframe
-  src="assets/missing_graph1.html"
+  src="assets/missing1.html"
   width="800"
   height="600"
   frameborder="0"
@@ -222,7 +222,7 @@ Alternative Hypothesis: Average review lengths is higher when rating is not miss
 Test Statistic: Mean Difference of review lengths when column rating is missing and is not missing: (average review length when rating is missing - average review length when rating is not missing)
 
 <iframe
-  src="assets/missing_graph2.html"
+  src="assets/missing2.html"
   width="800"
   height="600"
   frameborder="0"
