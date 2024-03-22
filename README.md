@@ -97,10 +97,23 @@ TODO: show head of cleaned dataframe
 ></iframe>
 
 #### Ratings Histogram
+<iframe
+  src="assets/uni_graph1.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 This histogram shows the distribution of ratings given by users. We can see a left-skewed distribution in which most ratings are 5s. 
 
 #### Average Length Histogram
+
+<iframe
+  src="assets/uni_graph2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 We wanted to analyze the distribution of average review length for each recipe, so this histogram shows the distribution of the count of each average review length. We can see a right skewed distribution which could be the result of outliers.  
 
@@ -109,7 +122,28 @@ We wanted to analyze the distribution of average review length for each recipe, 
 
 We wanted to analyze the relationship between ratings and preparation time. At first we created a scatter plot of ratings and minutes, but we couldn't draw any formal conclusion from it because the graph was impacted by an extreme outlier. Thus, we created a new column called time_level that encodes minutes into 5 quantiles named Very Short, Short, Moderate, Long, and Very Long. Using time_level, we created a box plot of each time level compared to it's respective average rating. From these group of box plots, we can see that across most time levels, the interquartile range falls within 4.5-5 average rating, except for recipes encoded as "Very Short" which has a higher mean and median of average rating compared to other time levels. 
 
+<iframe
+  src="assets/bi_graph1.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="assets/bi_graph2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 #### Scatter plot of review length and average rating
+
+<iframe
+  src="assets/bi_graph3.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 This is a scatter plot of review length and average rating. We can see a slight positive correlation between average review length and average rating especially for ratings that are integer. 
 
@@ -145,7 +179,12 @@ Firstly, we would like to analyze the distribution of minutes when rating is and
 **Our test statistic is:**
 - Test Statistic: Absolute Mean Difference of minutes when column rating is missing and is not missing
 
-TODO: plotly
+<iframe
+  src="assets/missing_graph1.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 For this test we choose a significance level of 0.05. 
 
@@ -165,7 +204,12 @@ Alternative Hypothesis: Average review lengths is higher when rating is not miss
 **Our test statistic is:**
 Test Statistic: Mean Difference of review lengths when column rating is missing and is not missing: (average review length when rating is missing - average review length when rating is not missing)
 
-TODO: plotly
+<iframe
+  src="assets/missing_graph2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 For this test, we continue to use a significance level of 0.05. 
 
