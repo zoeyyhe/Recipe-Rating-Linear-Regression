@@ -349,6 +349,13 @@ Alternative Hypothesis: Model RMSE for low and high calories recipes are differe
 **Test Statistic**
 Absolute difference in mean of average ratings between low and high calorie recipes.
 
+<iframe
+  src="assets/fairness_graph.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ### Conclusion
 For this test we will use a significance level of 0.05. Through our permutation test, we got a p-value of 0.0, so p < 0.05, thus our decision is to reject the null hypothesis.
 
