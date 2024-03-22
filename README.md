@@ -151,6 +151,15 @@ This is a scatter plot of review length and average rating. We can see a slight 
 
 To explore the relationship between review length and preparation time and average rating of the recipes, we created a pivot table. To get a better visualization of the distribution, we encoded a column called "review_level" which assigns labels of Very Short, Short, Moderate, Long, and Very Long to their respective quantiles. We will also use the similarly encoded column called "time_level" that we created in previous analyses. 
 
+| review_level | Very Short | Short    | Moderate | Long     | Very Long |
+|--------------|------------|----------|----------|----------|-----------|
+| Very Short   | 4.722399   | 4.747035 | 4.747727 | 4.706832 | 4.609652  |
+| Short        | 4.679963   | 4.705138 | 4.703112 | 4.690380 | 4.620714  |
+| Moderate     | 4.686290   | 4.684439 | 4.691852 | 4.684718 | 4.601823  |
+| Long         | 4.695913   | 4.686047 | 4.699674 | 4.672622 | 4.614751  |
+| Very Long    | 4.642500   | 4.668168 | 4.669313 | 4.662162 | 4.633712  |
+
+
 From this pivot table, we noticed a tendency of higher average ratings for shorter review lengths and shorter time levels. This shows an interesting relationship between the three variables that resonate with our project goals. It would be natural to think that higher average ratings would have longer reviews, but this pivot shows the contrary. One explanation is that people who don't like the recipe spend more time writing about what they don't like!
 
 ## Assessment of Missingness
