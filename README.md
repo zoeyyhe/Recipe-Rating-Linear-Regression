@@ -89,6 +89,13 @@ TODO: show head of cleaned dataframe
 ## EDA
 ### Univariate Analysis
 
+<iframe
+  src="assets/uni_graph1.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 #### Ratings Histogram
 
 This histogram shows the distribution of ratings given by users. We can see a left-skewed distribution in which most ratings are 5s. 
