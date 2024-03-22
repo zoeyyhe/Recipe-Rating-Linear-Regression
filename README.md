@@ -1,4 +1,4 @@
-# Recipe-Rating-Linear-Regression
+# Palate Prophecy: Decoding the Flavor Formula, Unraveling the Intricacies of Review-Rating Dynamics
 
 ## Introduction
 Our project will be centered around the factors that contribute to the rating of a recipe. Specifically, the relationship between the average rating a recipe has, accumulated from all of it's individual user ratings, and the preparation time of the recipe. Are recipes rated independently from it's preparation time? 
